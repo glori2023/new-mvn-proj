@@ -1,2 +1,8 @@
-package model;public class Dog {
+package model;
+
+public class Dog {
+    private  int id;
+    private String name;
+    private int age;
+
 }
