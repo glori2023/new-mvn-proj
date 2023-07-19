@@ -2,7 +2,7 @@ package errors;
 
 import model.Person;
 
-public class ExceptionsTester {
+public class ExceptionsTester<words> {
     public static void main(String[] args) {
         System.out.println("begin");
        // Person p1 = new Person();
@@ -46,19 +46,6 @@ try {
 
 
 }
-String str = "hello Java World!";
-    String[]words = str.split("");
-    for (String word : words){
-try {
-
-        System.out.println(word.charAt(word.indexOf('o')));
-
-    }catch (StringIndexOutOfBoundsException e){
-
-            System.out.println("no  " + word + );}
 
 
-
-        System.out.println("fin");
-    }
 }

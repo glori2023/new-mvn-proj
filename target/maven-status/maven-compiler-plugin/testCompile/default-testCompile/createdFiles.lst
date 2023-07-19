@@ -1,0 +1,8 @@
+errors\errors.class
+model\Dog.class
+util\ArraysUtil.class
+ArraysUtilsTest.class
+errors\ExceptionsTester.class
+model\ClonePersonTest.class
+model\PersonEqualsTests.class
+util\MathUtil.class
